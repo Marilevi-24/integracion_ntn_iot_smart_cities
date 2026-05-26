@@ -1,0 +1,25 @@
+\section{Discusión}
+
+\subsection{Implicaciones Prácticas}
+
+Particularmente llamativo es el hecho de que los resultados obtenidos trascienden el ámbito puramente técnico y ofrecen caminos concretos para despliegues en ciudades reales. Perkovic et al. \cite{Perkovic2025} ya habían señalado el potencial de NB-IoT sobre GEO en escenarios de movilidad urbana; nuestra arquitectura híbrida amplifica ese potencial al combinarlo con enlaces LEO y terrestres, logrando un sistema que responde de forma adaptativa a las necesidades cambiantes del monitoreo inteligente.
+
+Para operadores y gestores urbanos, esto implica una ruta más viable hacia la cobertura 100\% sin necesidad de densificar excesivamente la infraestructura terrestre, cuyo costo y complejidad regulatoria resultan prohibitivos en muchas metrópolis. Aplicaciones como la detección temprana de fallos en puentes, el monitoreo de calidad del aire en tiempo real o la gestión dinámica de tráfico se benefician directamente de la resiliencia añadida. En caso de fallo masivo en la red terrestre —cada vez más probable ante eventos climáticos extremos—, el segmento NTN actúa como backbone de continuidad, algo que pocas soluciones actuales garantizan de forma nativa.
+
+Desde una perspectiva económica, el enfoque selectivo de multi-conectividad reduce el gasto operativo al reservar enlaces satelitales para lo verdaderamente crítico. Esto podría acelerar la adopción en ciudades medianas y grandes de países en desarrollo, donde la brecha digital urbana sigue siendo pronunciada.
+
+\subsection{Limitaciones Técnicas}
+
+Uno de los desafíos persistentes que surge al analizar sistemas híbridos TN-NTN radica en el equilibrio energético. Aunque logramos mejoras globales, Plastras et al. \cite{Plastras2024} alertan con razón sobre las limitaciones inherentes de IoRT cuando se depende de enlaces satelitales prolongados. Nuestros dispositivos consumen más en modo NTN, especialmente durante periodos de visibilidad intermitente o en uplinks largos. Esta realidad impone restricciones importantes en baterías de larga duración y escenarios de energía harvesting.
+
+Adicionalmente, la latencia variable sigue siendo un factor a considerar. Aunque el percentil 95 mejoró notablemente, aplicaciones ultra-críticas (por ejemplo, control de tráfico autónomo en tiempo real) podrían requerir refinamientos adicionales en los algoritmos de predicción. El overhead de signaling durante handovers masivos también tiende a crecer de forma no lineal más allá de ciertas densidades, algo que observamos en las simulaciones pero que exige validación en campo.
+
+No obstante, cabe matizar que estas limitaciones no invalidan la propuesta. Más bien, señalan fronteras claras donde la investigación futura debe concentrarse: optimización de protocolos de duty-cycling más agresivos, integración con edge computing para reducir transmisiones y mejores modelos de predicción de visibilidad basados en IA.
+
+\subsection{Comparación con Estado del Arte}
+
+Lejos de ser un asunto resuelto, la literatura reciente sobre multi-conectividad TN-NTN muestra avances prometedores pero aún fragmentados. Shang et al. \cite{Shang2024} presentan un análisis detallado de arquitecturas multi-conectividad que coincide en varios puntos con nuestra propuesta, especialmente en el uso de split-bearing y handover asistido. Sin embargo, su trabajo se centra más en aspectos teóricos y de capacidad teórica, mientras que el nuestro enfatiza aplicaciones concretas de monitoreo IoT en entornos urbanos reales con restricciones energéticas y de movilidad.
+
+Respecto a Perkovic \cite{Perkovic2025}, compartimos la orientación hacia escenarios de movilidad pero extendemos el alcance al incorporar orquestación dinámica multi-órbita y mecanismos contextuales que ellos no abordan en profundidad. Plastras2024, por su parte, ofrece una visión más pesimista sobre eficiencia energética que contrasta con nuestros resultados; esta diferencia probablemente surge de nuestro uso selectivo de NTN versus enfoques más continuos analizados en su survey.
+
+En síntesis, la arquitectura propuesta avanza el estado del arte al combinar cobertura ubicua, inteligencia de decisión en tiempo real y consideraciones prácticas de despliegue que muchas soluciones académicas tienden a subestimar. Queda claro que, aunque no resuelve todos los desafíos de la integración NTN-IoT, establece un marco reproducible y escalable que puede servir de referencia para implementaciones piloto en Smart Cities. Los trabajos futuros deberán validar estos hallazgos en entornos operativos reales y explorar la integración con tecnologías emergentes como RIS y 6G-native NTN.

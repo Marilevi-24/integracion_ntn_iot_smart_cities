@@ -1,0 +1,25 @@
+\section{Conclusiones y Trabajos Futuros}
+
+\subsection{Resumen de Contribuciones}
+
+Resulta revelador observar cómo una integración pensada con cuidado entre redes terrestres y no terrestres puede transformar las capacidades de monitoreo en Smart Cities. Este trabajo ha propuesto y validado una arquitectura híbrida TN-NTN que logra cobertura efectiva superior al 97\%, reduce latencia promedio de forma significativa y mejora la eficiencia energética global del sistema IoT en un 23\% respecto a soluciones puramente terrestres bajo condiciones realistas de carga.
+
+Las contribuciones centrales incluyen un modelo de sistema multi-capa con orquestación contextual inteligente, mecanismos de handover make-before-break asistidos por predicción, y un framework de evaluación que combina simulaciones de alta fidelidad 3D con métricas orientadas a aplicaciones urbanas. Más allá de los números, la propuesta demuestra que es posible conciliar cobertura ubicua, resiliencia y eficiencia operativa sin caer en soluciones excesivamente complejas o costosas. Los resultados no solo confirman las ventajas teóricas de NTN, sino que las aterrizan en escenarios de monitoreo práctico con miles de dispositivos.
+
+\subsection{Recomendaciones}
+
+Uno de los desafíos persistentes al pasar de la simulación al despliegue radica en la brecha entre modelos ideales y condiciones operativas reales. Para operadores y autoridades urbanas interesadas en adoptar enfoques similares, recomendamos comenzar con pilotos a escala media en distritos representativos, priorizando aplicaciones críticas de resiliencia y monitoreo ambiental.
+
+Carbonara et al. \cite{Carbonara2025} enfatizan la importancia de plataformas de testing integradas TN-NTN; coincidimos plenamente y sugerimos emplear entornos de prueba híbridos que repliquen tanto movilidad vehicular como patrones de tráfico IoT bursty. Desde el punto de vista de implementación, resulta aconsejable adoptar un enfoque incremental: primero habilitar multi-conectividad básica, luego incorporar orquestación basada en reglas y, finalmente, evolucionar hacia agentes de decisión más avanzados. 
+
+La selección cuidadosa de constelaciones (combinando LEO para rendimiento y GEO para respaldo) junto con políticas energéticas estrictas en los dispositivos se revela clave para mantener viabilidad económica y operativa a largo plazo. No subestimen tampoco los aspectos regulatorios y de espectro, que en muchos casos estudiados condicionan más el éxito que los propios desafíos técnicos.
+
+\subsection{Direcciones Futuras}
+
+Lejos de ser un asunto resuelto, la convergencia entre NTN e IoT abre un amplio horizonte de investigación. Aunque nuestra arquitectura marca un avance concreto, persisten oportunidades significativas para refinamiento y extensión.
+
+Resulta particularmente prometedor explorar la integración nativa con tecnologías 6G emergentes como Reconfigurable Intelligent Surfaces (RIS) para mejorar enlaces satelitales en entornos densamente obstruidos, o el uso de aprendizaje federado para optimizar decisiones de handover de forma distribuida preservando privacidad. La escalabilidad a decenas de miles de dispositivos por km² bajo patrones de tráfico reales también merece atención prioritaria.
+
+Ogbodo et al. \cite{Ogbodo2022} ofrecen una visión amplia sobre LPWAN e IoT en Smart Cities que sigue siendo relevante; alineamos nuestros trabajos futuros con esa perspectiva al proponer estudios que incorporen mayor heterogeneidad de dispositivos, integración con edge computing para procesamiento local de datos y evaluaciones económicas completas de TCO (Total Cost of Ownership) en diferentes contextos urbanos.
+
+Otras líneas interesantes incluyen la robustez ante amenazas de seguridad específicas de NTN, la optimización conjunta de energía harvesting y protocolos de transmisión, y la validación en campo a gran escala. Creemos firmemente que la verdadera inteligencia de las ciudades del futuro no residirá solo en la densidad de sensores, sino en su capacidad de permanecer conectados y útiles bajo cualquier circunstancia. Esta investigación representa un paso en esa dirección, pero el camino aún ofrece numerosos desafíos estimulantes y oportunidades de impacto real.

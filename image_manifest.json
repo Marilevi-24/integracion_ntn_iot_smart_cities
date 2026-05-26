@@ -1,0 +1,20 @@
+{
+    "fig1.png": {
+        "prompt_ia": "2D technical vector diagram, engineering schematic, flat design, minimalista, fondo blanco puro, colores azul cobalto #0047AB y gris técnico #4A4A4A, negro para líneas principales. Diagrama de arquitectura híbrida NTN-IoT para Smart Cities: muestra ciudad con edificios, sensores IoT en calles y vehículos, torres terrestres 5G, conexión ascendente a satélites LEO y GEO, nubes representando core network, flechas bidireccionales para flujos de datos de monitoreo (tráfico, ambiente, infraestructura), bloques funcionales etiquetados solo en leyenda externa. Sin texto incrustado dentro de la imagen, sin sombras, sin gradientes, estilo limpio y profesional IEEE."
+    },
+    "fig2.png": {
+        "prompt_ia": "2D technical vector diagram, engineering schematic, flat design, minimalista, fondo blanco puro, colores azul cobalto #0047AB y gris técnico #4A4A4A, negro para líneas y flechas. Timeline horizontal de la evolución NTN en 3GPP desde Release 15 hasta 19. Barras o hitos cronológicos claros marcando: Rel-17 (NB-IoT/eMTC NTN, Doppler compensation), Rel-18 (mejoras rendimiento, movilidad), Rel-19 (regenerative payloads, Store & Forward). Iconos simples de satélites LEO/GEO, dispositivos IoT y torres terrestres. Sin texto incrustado dentro de la imagen, sin sombras, sin gradientes, estilo limpio y profesional IEEE."
+    },
+    "fig3.png": {
+        "prompt_ia": "2D technical vector diagram, engineering schematic, flat design, minimalista, fondo blanco puro, colores azul cobalto #0047AB y gris técnico #4A4A4A, negro para líneas y flechas. Diagrama completo de arquitectura híbrida propuesta: vista superior de ciudad con edificios, sensores IoT en calles, vehículos y parques. Torres 5G terrestres conectadas a edge/core network. Satélites LEO y GEO en órbita con enlaces descendentes. Bloques funcionales: NTN Gateway, Controlador de Orquestación de Conectividad (COC), flujos de datos diferenciados (monitoreo tráfico, ambiental, infraestructura). Flechas bidireccionales mostrando multi-conectividad y handover. Capas claramente separadas. Sin texto incrustado dentro de la imagen, sin sombras, sin gradientes, estilo limpio y profesional IEEE."
+    },
+    "fig4.png": {
+        "prompt_ia": "2D technical vector diagram, engineering schematic, flat design, minimalista, fondo blanco puro, colores azul cobalto #0047AB y gris técnico #4A4A4A, negro para líneas y contornos. Mapa de cobertura comparativa de un distrito urbano (25 km²): silueta simplificada de ciudad con edificios como rectángulos grises. Superposición de dos capas de color (azul para cobertura TN pura, verde para cobertura híbrida TN-NTN). Leyenda externa clara. Zonas sombreadas mostrando mejoras en periferias y corredores. Heatmap discreto con escala de cobertura. Sin texto incrustado dentro de la imagen, sin sombras, sin gradientes, estilo limpio y profesional IEEE."
+    },
+    "fig5.png": {
+        "prompt_ia": "2D technical vector diagram, engineering schematic, flat design, minimalista, fondo blanco puro, colores azul cobalto #0047AB y gris técnico #4A4A4A, negro para líneas y ejes. Paneles de gráficos comparativos de rendimiento (tres subfiguras lado a lado): (a) Curva CDF de latencia híbrida vs terrestre, (b) Barras y líneas de consumo energético acumulado, (c) Gráfico de probabilidad de cobertura versus densidad de dispositivos. Ejes claramente marcados con unidades, leyendas externas simples (azul para TN, verde para híbrido). Estilo limpio IEEE, sin texto incrustado dentro de la imagen, sin sombras, sin gradientes."
+    },
+    "note": {
+        "prompt_ia": "No se requieren imágenes ni figuras para esta sección de Conclusiones según los insumos especificados. La sección cierra el artículo de forma reflexiva y prospectiva."
+    }
+}
